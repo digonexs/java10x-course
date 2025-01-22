@@ -40,6 +40,7 @@ public class SwitchCase {
                 break; // Finaliza a execução após atender ao caso
             default: // Caso o usuário digite um número inválido
                 System.out.println("O número escolhido é inválido. Tente novamente!");
+                break;
         }
 
         // Fechando o objeto Scanner para liberar recursos
